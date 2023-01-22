@@ -53,10 +53,16 @@ body {
 .hero-side > .hero-text {
     font-size: 18px;
     color: #e5e7eb;
+    max-width: 750px;
 }
 
 .hero-side > .sign-up {
     background-color: #3882f6;
+    color: #e5e7eb;
+    border: 3px solid #3882f6;
+    font-weight: bold;
+    padding: 0.4em 1.2em 0.4em 1.2em;
+    border-radius: 6px;
 }
 
 .mid {
