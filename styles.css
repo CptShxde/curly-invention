@@ -2,6 +2,7 @@ body {
     padding: 0px;
     margin: 0px;
     font-family: Roboto, sans-serif;
+    min-width: 1200px;
 }
 
 .header {
@@ -26,14 +27,20 @@ body {
     background-color: #1f2937;
     margin: 0px;
     display: flex;
+    justify-content: center;
     gap: 30px;
     min-height: 30vh;
 }
 
 .hero > img {
-    display: block;
-    width: 400px;
-    height: auto;
+    width: auto;
+    height: 250px;
+    object-fit: contain;
+    border: #e5e7eb;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 2px solid #e5e7eb;
+    border-radius: 2px;
 }
 
 .hero-side > .hero-main {
@@ -67,7 +74,7 @@ body {
 
 .mid > .container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     text-align: center;
 }
 
@@ -76,6 +83,7 @@ body {
     height: 150px;
     object-fit: cover;
     border: 4px solid #3882f6;
+    border-radius: 4px;
 
 }
 
@@ -105,14 +113,47 @@ body {
 }
 
 .bottom {
-    padding: 0px 150px 0px 150px;
-    min-height: 30vh;
+    padding: 0px 25% 0px 25%;
+    min-height: 20vh;
+    min-width: 800px;
+    margin-top: 4%;
+}
+
+.bottom > .container-bt {
+    display: flex;
+    justify-content: center;
+    background-color: #3882f6;
+    border-radius: 10px;
+}
+
+.container-bt > .bottom-text {
+    margin: 20px 20% 20px 0px;
+    color: #e5e7eb;
+}
+
+.container-bt > .sign-up {
+    align-self: center;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border: 3px solid #e5e7eb;
+    font-weight: bold;
+    padding: 0.4em 1.2em 0.4em 1.2em;
+    border-radius: 6px;
+}
+
+.bottom-text > h1 {
+    margin-bottom: 0px;
+}
+
+.bottom-text > p {
+    margin-top: 0px;
+}
+
+.footer {
+    min-height: 7vh;
+    background-color: #1f2937;
+    color: #e5e7eb;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-.button > .container {
-}
-
-
